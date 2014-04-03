@@ -1,0 +1,8 @@
+bower_components/
+lib/
+build/
+node_modules/
+*.sublime-project
+*.sublime-workspace
+www/
+dist/

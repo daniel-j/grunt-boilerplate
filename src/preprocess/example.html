@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><!-- @if NODE_ENV == 'development' -->DEV - <!-- @endif -->webchat</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+	<h1>testing! :)</h1>
+
+	<!-- @if NODE_ENV == 'development' -->
+	<script src="../build/libs.min.js"></script>
+	<script src="../build/eco.js"></script>
+	<script src="../build/core.debug.js"></script>
+	<!-- @endif -->
+	<!-- @if NODE_ENV == 'production' -->
+	<script src="js/app.min.js"></script>
+	<!-- @endif -->
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title
+			if env == 'development'
+				| DEV -
+			| webchat
+
+		link(rel='stylesheet', type='text/css', href='style/style.css')
+	body
+		h1 Welcome to Grunt Boilerplate by djazz
+		h2 Current env: #{env}
+
+		if env == 'development'
+			script(src='//localhost:35729/livereload.js')
+			script(src='../build/libs.min.js')
+			script(src='../build/eco.js')
+			script(src='../build/core.debug.js')
+		else
+			script(src='js/app.min.js')

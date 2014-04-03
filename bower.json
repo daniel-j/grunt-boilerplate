@@ -1,0 +1,16 @@
+{
+	"name": "bower dependencies",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"marionette": "~1.7.3"
+	},
+	"exportsOverride": {
+		"backbone.wreqr": {
+			"": "lib/backbone.wreqr.js"
+		},
+		"marionette": {
+			"": "./lib/backbone.marionette.js"
+		}
+	}
+}
