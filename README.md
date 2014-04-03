@@ -6,7 +6,8 @@ Grunt Boilerplate with CoffeeScript, LESS, eco, Jade and Backbone+Marionette
 Installation
 ====
 
-Install grunt-cli locally, then do:
+Install grunt-cli and bower:
+$ sudo npm install -g grunt-cli bower
 
 $ npm install && bower install && grunt bower:install
 
