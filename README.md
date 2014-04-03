@@ -12,6 +12,9 @@ $ sudo npm install -g grunt-cli bower
 
 $ npm install && bower install && grunt bower:install
 
+Usage
+===
+
 To build the app in development, run:
 
 $ grunt
