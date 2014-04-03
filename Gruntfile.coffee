@@ -28,7 +28,7 @@ jadedir = 'src/jade'
 templatedir = 'src/preprocess'
 
 wwwdir = 'www' # is a merge from dist and static directories
-staticdir = 'static' # put images and other assets here
+staticdir = 'assets' # put images and other assets here
 distdir = 'dist' # put final build here
 releasefile = 'js/app.min.js'
 releasestyle = 'style/style.css'
