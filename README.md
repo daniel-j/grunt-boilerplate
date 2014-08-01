@@ -27,3 +27,4 @@ To run in watch mode, use the edit task:
 
 $ grunt edit
 
+If you run in watch mode, you may run into this error: http://stackoverflow.com/questions/16748737/grunt-watch-error-waiting-fatal-error-watch-enospc

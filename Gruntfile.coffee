@@ -231,8 +231,8 @@ module.exports = (grunt) ->
 						production: true
 
 		watch:
-			gruntfile:
-				files: ['Gruntfile.coffee']
+#			gruntfile:
+#				files: ['Gruntfile.coffee']
 
 			preprocess:
 				files: [templatedir+'/**']
