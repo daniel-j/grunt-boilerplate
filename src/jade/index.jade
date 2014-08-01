@@ -5,11 +5,12 @@ html
 		title
 			if env == 'development'
 				| DEV -
-			| webchat
+			| index
 
 		link(rel='stylesheet', type='text/css', href='style/style.css')
 	body
 		h1 Welcome to Grunt Boilerplate by djazz
+		a(href='https://github.com/daniel-j/grunt-boilerplate', target='_blank') https://github.com/daniel-j/grunt-boilerplate
 		h2 Current env: #{env}
 
 		if env == 'development'
